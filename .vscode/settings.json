@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "docker.showRemoteWorkspaceWarning": true,
+    "files.autoGuessEncoding": true,
+    "powershell.debugging.createTemporaryIntegratedConsole": true,
+    "powershell.enableProfileLoading": false,
+    "powershell.scriptAnalysis.enable": true,
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "terminal.integrated.shell.linux": "/usr/bin/pwsh",
+}

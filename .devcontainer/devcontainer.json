@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/powershell
+{
+    "name": "PowerShell",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        "-v",
+        "/var/run/docker.sock:/var/run/docker.sock"
+    ],
+    "extensions": [
+        "ms-vscode.powershell",
+        "mauve.terraform",
+        "ms-azuretools.vscode-docker"
+    ],
+    "settings": {
+        "remote.extensionKind": {
+            "ms-azuretools.vscode-docker": "workspace"
+        }
+    }
+}
